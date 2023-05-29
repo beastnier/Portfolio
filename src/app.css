@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper {
+    height: 100%;
+    padding-top: 8.2vh;
+    color: white;
+    background: #0f172a;
+    min-height: 100vh;
+  }
+
+.btn {
+  background: #0f172a;
+  color: white;
+  border: 1px solid white;
+  min-height: max-content;
+  min-width: max-content;
+  font-weight: bolder;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}

@@ -1,1 +1,6 @@
-<div class="h-screen p-[8.2vh]"></div>
+<script>
+    import Canvas from "$lib/components/Canvas.svelte";
+</script>
+<div class="wrapper flex justify-center">
+    <Canvas />
+</div>
